@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Righteous';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #222831;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#back{
+    margin-top: 8em;
+    padding: 4em;
+    border-radius: 22px;
+    text-align: center;
+    background: #393E46;
+    #titulo{
+        color: #FFD369;
+        font-weight: 400;
+    }
+    #numeroCliente{
+        background-color: #222831;
+        border-radius: 10px;
+        border: none;
+        border: solid #FFD369 2px;
+        padding: 1em;
+        color: #FFFFFF;
+        outline: none;
+    }
+    #enviarN{
+        background-color: #FFD369;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 1em;
+    }
+}
